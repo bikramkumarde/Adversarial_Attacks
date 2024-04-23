@@ -1,4 +1,12 @@
 # Adversarial_Attacks
+This repository contains the files and folders to run the project on Adversarial Attacks on time series and its corresponding modified code.
+
+Steps:
+1. Clone: Clone this repository using git clone
+2. Installation: Run the requirements.txt file as present in the installation instructions.
+3. Download the dataset following the instructions.
+4. Run the unzip.ipynb to unzip the folder. It already contains the password required.
+5. 
 # Installation
 
 Download the repository and apply `pip install -r requirements.txt` to install the required libraries. Please note that this library uses Tensorflow 1.12 with Eager Execution enabled. However, as Tensorflow comes in CPU and GPU variants, we default to the **CPU** variant.
@@ -11,13 +19,11 @@ Extract that into some folder and it will give 125 different folders. Copy-paste
 
 # Training and Evaluation
 
-There are 3 scripts each for the combination listed below : 
+Scripts to run:
 
 - White-box attack on Neural Network : `search_ts_nn_gatn_whitebox.py`, `eval_ts_nn_gatn_whitebox.py`, `vis_ts_nn_gatn_whitebox.py`.
-- Black-box attack on Neural Network : `search_ts_nn_gatn_blackbox.py`, `eval_ts_nn_gatn_blackbox.py`, `vis_ts_nn_gatn_blackbox.py`.
-
-- White-box attack on Classical Model : `search_ts_classical_gatn_whitebox.py`, `eval_ts_classical_gatn_whitebox.py`, `vis_ts_classical_gatn_whitebox.py`
-- Black-box attack on Classical Model : `search_ts_classical_gatn_blackbox.py`, `eval_ts_classical_gatn_blackbox.py`, `vis_ts_classical_gatn_blackbox.py`
+- To run CNN model: search_ts_nn_gatn_whitebox.py
+- To run LSTM model: search_ts_nn_gatn_whitebox_new.py
 -----
 
 ## Tasks 
