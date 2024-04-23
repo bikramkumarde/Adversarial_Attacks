@@ -1,0 +1,2 @@
+dataset_id,beta,train_mse,train_acc_realistic,train_acc_optimistic,train_target_rate,num_adversaries
+21,0.00000,nan,0.417969,0.000000,1.000000,217

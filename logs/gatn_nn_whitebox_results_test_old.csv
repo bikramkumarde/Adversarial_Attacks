@@ -1,0 +1,4 @@
+dataset_id,beta,train_mse,train_acc_realistic,train_acc_optimistic,train_target_rate,num_adversaries
+20,0.00000,0.474331,0.018663,1.000000,0.555556,0
+20,0.00000,0.472201,0.067708,0.918171,0.588293,3
+21,0.00000,0.053417,0.417969,1.000000,1.000000,0
